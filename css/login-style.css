@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(228, 222, 222, 0.336);
+}
+
+.main-containt {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 10rem;
+}
+
+.user-form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 0.6rem;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: gray;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(56, 56, 56);
+  font-weight: 300;
+}
+
+.user-form input {
+  width: 21rem;
+  height: 2rem;
+  /* align-items: center; */
+  /* margin: 0.4rem; */
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+}
+
+.by-click {
+  text-align: center !important;
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.by-click a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  font-size: 1rem;
+  margin-left: 0.7rem;
+  padding: 1rem 7rem 1rem 7rem;
+  background-color: blue;
+  color: white;
+  font-weight: 900;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.google-auth {
+  margin-left: 0.2rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  align-items: center;
+  padding: 0.7rem 5rem 0.7rem 6rem;
+  color: royalblue;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  border: solid 1px blue;
+}
+
+hr {
+  margin-top: 2rem;
+}
+.already {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.already a {
+  text-decoration: none;
+  font-weight: 900;
+  color: blue;
+}
+
+.last-pr {
+  padding-top: 2rem;
+  font-size: 1rem;
+}
+
+.last-pr a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-list {
+  margin-top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 600;
+  background-color: white;
+  /* position: fixed; */
+  /* margin-left: 25rem; */
+}
+
+.footer-list select {
+  border: none;
+  background-color: white;
+}

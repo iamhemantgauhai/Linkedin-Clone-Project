@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linkdin-logo {
+  padding-left: 2rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+.stay {
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.3rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.main-containt {
+  padding: 2rem;
+  margin: auto;
+  width: 24rem;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px rgba(128, 128, 128, 0.301), -1em 0 1em gray;
+  border-radius: 0.6rem;
+  padding-bottom: 2rem;
+}
+
+.forgot {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: blue;
+}
+
+.main-containt input {
+  width: 20rem;
+  padding: 1rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+}
+
+.signup {
+  /* padding: 0.7rem 7rem 0.7rem 7rem; */
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: blue;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 900;
+}
+
+hr {
+  margin-top: 1.5rem;
+}
+
+.with-apple {
+  margin-left: 0.2rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  align-items: center;
+  padding: 0.7rem 4rem 0.7rem 4rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  color: gray;
+  border: solid 1px gray;
+}
+
+.link-login {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.link-login a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.apple-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: black;
+}
+.footer-list {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 600;
+  background-color: white;
+  /* position: fixed; */
+  /* margin-left: 25rem; */
+}
+
+.footer-list select {
+  border: none;
+  background-color: white;
+}
